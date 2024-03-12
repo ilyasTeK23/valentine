@@ -1,0 +1,81 @@
+.parent {
+   height: 200vh;
+   display: grid;
+   grid-template-columns:repeat(10  ,1fr);
+   grid-template-rows: repeat (14, 1fr);
+   gap: 20px;
+}
+
+.parent > div {
+  border: solid 5px rgb(253, 253, 253);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#div1 {
+   grid-column: 1/11;
+   grid-row: 1/2;
+   background-color: #800000;
+   
+}
+
+#div2 {
+   grid-column: 1/6;
+   grid-row: 2/5;
+   background-color: #800000;
+}
+
+#div3 {
+   grid-column: 6/11;
+   grid-row: 2/5;
+   background-image: url(https://images.pexels.com/photos/196664/pexels-photo-196664.jpeg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   
+   
+}
+.t1{
+   color: aliceblue;
+   font-style: italic;
+   font-family: garamond;
+
+}
+
+#div4 {
+   grid-column: 1/5;
+   grid-row: 5/8;
+   color: black;
+ 
+}
+
+#div5 {
+   grid-column: 5/11;
+   grid-row: 5/8;
+   background-image: url
+}
+
+#div6 {
+   grid-column: 1/5;
+   grid-row: 8/15;
+   background-image:url(https://im.indiatimes.in/content/2023/Feb/Valentine-Day-2023-images1_63ea27be663bd.jpg?w=1200&h=900&cc=1) ;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+#div7 {
+   grid-column: 5/11;
+   grid-row: 8/10;
+}
+
+#div8{
+  grid-column: 5/11;
+  grid-row: 10/15;
+  color: white;
+}
+
+body {
+  background-image: url(https://www.color-meanings.com/wp-content/uploads/red-white-pink-valentines-day-illustration.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
