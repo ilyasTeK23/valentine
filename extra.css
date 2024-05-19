@@ -1,0 +1,104 @@
+.parent {
+    height: 300vh;
+    display: grid;
+    grid-template-columns:repeat(10,1fr);
+    grid-template-rows: repeat (14, 1fr);
+    gap: 20px;
+ }
+ 
+ .parent > div {
+   border: solid 5px rgb(21, 6, 6);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
+ 
+ #div1 {
+    grid-column: 1/11;
+    grid-row: 1/2;
+    background-color: rgb(247, 250, 247);
+    background-repeat: no-repeat;
+    background-size: 600px;
+    background-position: center;
+    
+ }
+ 
+ #div2 {
+    grid-column: 2/6;
+    grid-row: 2/6;
+    background-color: rgb(244, 250, 245);
+    font-size: 1.2em;
+    display: flex;
+    flex-direction: column;
+    background-image: url(https://www.paigntonzoo.org.uk/wp-content/uploads/2021/04/PZ_09-03-21_Misc_AD_LR-17-1024x683.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+ }
+ 
+ #div3 {
+    grid-column: 6/10;
+    grid-row: 2/6;
+    background-image: url(https://www.dudleyzoo.org.uk/wp-content/uploads/DZG_Delilah_Spider_Monkey7.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;  
+    background-color: rgb(244, 244, 220);
+ }
+ 
+ 
+ 
+ #div4 {
+    grid-column: 1/11;
+    grid-row: 6/7;
+ }
+ 
+ #div5 {
+    grid-column: 1/11;
+    grid-row: 6/7;
+    font-size: 0.6em;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+ 
+ }
+ 
+ #div6 {
+    grid-column: 3/9;
+    grid-row: 7/10;
+    background-image:url(https://ichef.bbci.co.uk/news/1024/cpsprodpb/F300/production/_133280226_screenshot2024-05-07121612.png.webp) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+ }
+ 
+
+ 
+ 
+
+ 
+ body {
+    background-color: #f2f8f4df;
+ 
+ }
+ 
+ .t1{
+    color: rgb(18, 13, 13);
+    font-style: normal;
+    font-family: garamond;
+    font-size: 2em;
+    
+ }
+
+ 
+ .t3 {
+    color: black;
+    font-style: normal;
+    font-family: garamond;
+    font-size: 40px;
+    padding: 30px;
+ }
+ 
+

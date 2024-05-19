@@ -1,0 +1,78 @@
+.parent {
+    height: 200vh;
+     display: grid;
+     grid-template-columns:repeat(3,1fr);
+     grid-template-rows: repeat (7, 1fr);
+     gap: 20px;
+     background-color: darkgreen;
+ }
+ 
+
+ .parent > div {
+     display:flex;
+     justify-content: center;
+     align-items: center;
+     
+ }
+#div1 {
+    background-color: rgb(243, 245, 243);
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+#div2 {
+    background-color: rgb(236, 240, 237);
+    grid-column: 2 / 4;
+    grid-row: 1 / 2;
+}
+#div3 {
+    background-color: rgb(242, 247, 241);
+    grid-column: 1 / 3;
+    grid-row: 2 / 6;
+    background-image: url(https://www.tractindia.org/uploads/7/1/7/5/7175219/img-5260_orig.jpg);
+    background-repeat: no-repeat;
+    background-position: center ;
+}
+#div4 {
+    background-color: rgb(241, 247, 241);
+    grid-column: 3 / 4;
+    grid-row: 2 / 6;
+
+}
+#div5 {
+    background-color: rgb(244, 247, 244);
+    grid-column: 1 / 4;
+    grid-row: 6 / 11;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.t1 {
+    text-align: center;
+    font-size: 3em;
+}
+
+.t2 {
+    text-align: center;
+    font-size: 3em;
+}
+
+.t4 {
+    color: black;
+    font-style: normal;
+    font-family: garamond;
+    font-size: 30px;
+    padding: 30px;
+ }
+
+ .t5 {
+    color: black;
+    font-style: normal;
+    font-family: garamond;
+    font-size: 1.9em;
+    padding: 10px;
+    text-align: center;
+ }
+
+
+ 
